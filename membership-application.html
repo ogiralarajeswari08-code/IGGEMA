@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ee">
+  <meta name="description" content="Complete an IGGEMA membership application or renewal form online.">
+  <title>Membership Application — IGGEMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="IGG.css">
+  <link rel="stylesheet" href="membership.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="IGGEMA home">
+        <span class="brand-mark" aria-hidden="true">i</span>
+        <span class="brand-name">IGGEMA<span class="brand-caption">INDIAN GREEN GAS EQUIPMENT MANUFACTURERS ASSOCIATION</span></span>
+      </a>
+      <a class="nav-cta" href="membership-forms.html">Back to forms <span aria-hidden="true">←</span></a>
+    </nav>
+  </header>
+
+  <main class="charter container form-picker" id="main-content">
+    <header class="charter-header">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> IGGEMA MEMBERSHIP</p>
+      <h1 id="form-page-title">Membership<br><span>application</span></h1>
+      <p class="charter-intro">Complete the fields below and submit your form. An acknowledgement will be sent to the email address you provide.</p>
+    </header>
+
+    <p class="form-service-notice">Form submissions are handled by FormSubmit to deliver your application to IGGEMA and send your acknowledgement. On the first submission, FormSubmit may ask IGGEMA to verify the receiving email address before delivery is enabled.</p>
+    <p class="payment-unavailable"><strong>Payment QR is not available yet.</strong> Please do not make a payment using an unverified QR. Payment details can be added once IGGEMA provides its official payment QR or UPI information.</p>
+
+    <section class="online-form-panel" id="annual-form" hidden>
+      <h2>Annual Membership Application</h2>
+      <p class="document-ref">Form No.: IGGEMA/MEM/ANN/2026</p>
+      <form action="https://formsubmit.co/ajax/Iggema.org.in@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="IGGEMA Annual Membership Application">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+        <fieldset>
+          <legend>Organisation details</legend>
+          <div class="form-grid">
+            <label>Company / organisation name<input name="Company / Organisation Name" autocomplete="organization" required></label>
+            <label>Type of organisation<select name="Type of Organisation" required><option value="">Select type</option><option>Private Limited Company</option><option>Public Limited Company</option><option>LLP / Partnership</option><option>Proprietorship</option><option>Society / Trust / NGO</option><option>Government / PSU</option><option>Startup (DPIIT Recognised)</option><option>Other</option></select></label>
+            <label>Year of incorporation<input name="Year of Incorporation" inputmode="numeric"></label>
+            <label>CIN / registration number<input name="CIN / Registration No."></label>
+            <label>GST number<input name="GST Number"></label>
+            <label>PAN number<input name="PAN Number"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Primary contact &amp; authorised signatory</legend>
+          <div class="form-grid">
+            <label>Name of authorised person<input name="Authorised Person" autocomplete="name" required></label>
+            <label>Designation / title<input name="Designation"></label>
+            <label>Mobile number<input name="Mobile Number" type="tel" autocomplete="tel" required></label>
+            <label>Official email address<input name="email" type="email" autocomplete="email" required></label>
+            <input type="hidden" name="_autoresponse" value="Thank you for submitting your IGGEMA Annual Membership Application. IGGEMA has received your form for review.">
+            <label>LinkedIn profile URL <span>(optional)</span><input name="LinkedIn Profile URL" type="url"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Registered address</legend>
+          <div class="form-grid">
+            <label>Address line 1<input name="Address Line 1" autocomplete="address-line1"></label>
+            <label>Address line 2<input name="Address Line 2" autocomplete="address-line2"></label>
+            <label>City<input name="City" autocomplete="address-level2"></label>
+            <label>State<input name="State" autocomplete="address-level1"></label>
+            <label>PIN code<input name="PIN Code" inputmode="numeric" autocomplete="postal-code"></label>
+            <label>Country<input name="Country" value="India" autocomplete="country-name"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Business domain</legend>
+          <div class="form-check-grid">
+            <label><input type="checkbox" name="Business Domain" value="Biogas Plant EPC / Construction"> Biogas Plant EPC / Construction</label>
+            <label><input type="checkbox" name="Business Domain" value="Biogas Equipment Manufacturing"> Biogas Equipment Manufacturing</label>
+            <label><input type="checkbox" name="Business Domain" value="CBG / BioCNG Production"> CBG / BioCNG Production</label>
+            <label><input type="checkbox" name="Business Domain" value="Biomass Energy"> Biomass Energy</label>
+            <label><input type="checkbox" name="Business Domain" value="Biogas Upgradation (Membrane / PSA)"> Biogas Upgradation (Membrane / PSA)</label>
+            <label><input type="checkbox" name="Business Domain" value="Digestate / Biofertiliser"> Digestate / Biofertiliser</label>
+            <label><input type="checkbox" name="Business Domain" value="Engineering Consultancy / PMC"> Engineering Consultancy / PMC</label>
+            <label><input type="checkbox" name="Business Domain" value="Technology / R&D"> Technology / R&amp;D</label>
+            <label><input type="checkbox" name="Business Domain" value="Finance / Investment"> Finance / Investment</label>
+            <label><input type="checkbox" name="Business Domain" value="Government / Policy"> Government / Policy</label>
+            <label><input type="checkbox" name="Business Domain" value="Other"> Other</label>
+          </div>
+          <label>Other / specify<input name="Other Business Domain"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership tier</legend>
+          <label>Selected membership category<select name="Selected Membership Category" required><option value="">Select a tier</option><option>Startup Member — Rs. 5,000 / year</option><option>Associate Member — Rs. 15,000 / year</option><option>Regular Member — Rs. 30,000 / year</option><option>Premium Member — Rs. 75,000 / year</option><option>Platinum Member — Rs. 1,50,000 / year</option><option>Life Member (Corporate) — Rs. 5,00,000 one-time</option></select></label>
+        </fieldset>
+        <fieldset>
+          <legend>Payment details</legend>
+          <p class="form-help">Payment QR and account instructions are not available yet. Complete payment details only after receiving verified instructions from IGGEMA.</p>
+          <div class="form-grid">
+            <label>Transaction reference number<input name="Transaction Reference No."></label>
+            <label>Date of payment<input name="Date of Payment" type="date"></label>
+            <label>Amount paid (Rs.)<input name="Amount Paid (Rs.)" type="number" min="0" step="0.01"></label>
+            <label>Mode of payment<select name="Mode of Payment"><option value="">Select mode</option><option>NEFT</option><option>RTGS</option><option>UPI</option><option>Cheque / DD</option><option>Online Portal</option><option>Other</option></select></label>
+            <label>Member's bank name<input name="Member Bank Name"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Declaration &amp; signature</legend>
+          <p class="form-help">I / We declare that the information provided is true and correct, agree to abide by IGGEMA's Memorandum, Rules and Regulations, and understand that membership is subject to Governing Council approval.</p>
+          <div class="form-grid">
+            <label>Authorised signatory name<input name="Signatory Name" required></label>
+            <label>Designation<input name="Signatory Designation"></label>
+            <label>Date<input name="Declaration Date" type="date" required></label>
+          </div>
+          <label class="declaration-check"><input type="checkbox" name="Declaration Accepted" value="Yes" required> I agree to the declaration above.</label>
+        </fieldset>
+        <button class="button button-primary" type="submit">Submit application <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+    <section class="online-form-panel" id="startup-form" hidden>
+      <h2>Startup Membership Application</h2>
+      <p class="document-ref">Form No.: IGGEMA/MEM/STR/2026</p>
+      <form action="https://formsubmit.co/ajax/Iggema.org.in@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="IGGEMA Startup & Associate Membership Application">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+        <fieldset>
+          <legend>Applicant details</legend>
+          <div class="form-grid">
+            <label>Name of company / entity<input name="Company / Entity" autocomplete="organization" required></label>
+            <label>Founded / incorporated year<input name="Founded / Incorporated Year" inputmode="numeric"></label>
+            <label>DPIIT startup recognition number <span>(if applicable)</span><input name="DPIIT Startup Recognition No."></label>
+            <label>Stage of business<select name="Stage of Business"><option value="">Select stage</option><option>Idea / Pre-Revenue</option><option>Early Revenue (&lt; Rs. 1 Cr turnover)</option><option>Growth Stage (Rs. 1–10 Cr turnover)</option><option>Established (&gt; Rs. 10 Cr turnover)</option></select></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Contact information</legend>
+          <div class="form-grid">
+            <label>Founder / director name<input name="Founder / Director Name" autocomplete="name" required></label>
+            <label>Mobile<input name="Mobile" type="tel" autocomplete="tel" required></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required></label>
+            <input type="hidden" name="_autoresponse" value="Thank you for submitting your IGGEMA Startup & Associate Membership Application. IGGEMA has received your form for review.">
+            <label>Website / social handle<input name="Website / Social Handle" type="url"></label>
+            <label>City &amp; state<input name="City & State" autocomplete="address-level2"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Product / service details</legend>
+          <div class="form-grid">
+            <label>Main product or service<input name="Main Product or Service"></label>
+            <label>Technology / innovation focus<textarea name="Technology / Innovation Focus" rows="3"></textarea></label>
+            <label>Number of projects / installations<input name="No. of Projects / Installations" type="number" min="0"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Membership tier</legend>
+          <label>Selected membership category<select name="Selected Membership Category" required><option value="">Select a tier</option><option>Startup Member — Rs. 5,000 / year</option><option>Associate Member — Rs. 15,000 / year</option><option>Regular Member — Rs. 30,000 / year</option></select></label>
+        </fieldset>
+        <fieldset>
+          <legend>Payment details</legend>
+          <p class="form-help">Payment QR and account instructions are not available yet. Complete payment details only after receiving verified instructions from IGGEMA.</p>
+          <div class="form-grid">
+            <label>Transaction / UTR reference number<input name="Transaction / UTR Reference No."></label>
+            <label>Date of payment<input name="Date of Payment" type="date"></label>
+            <label>Amount paid (Rs.)<input name="Amount Paid (Rs.)" type="number" min="0" step="0.01"></label>
+            <label>Mode of payment<select name="Mode of Payment"><option value="">Select mode</option><option>UPI</option><option>NEFT</option><option>RTGS</option><option>Cheque</option><option>Online Portal</option><option>Other</option></select></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Declaration &amp; signature</legend>
+          <p class="form-help">I declare that the information is true and accurate. I agree to comply with IGGEMA's membership rules and contribute to the growth of India's green gas and biomass ecosystem.</p>
+          <div class="form-grid">
+            <label>Authorised signatory name<input name="Signatory Name" required></label>
+            <label>Designation<input name="Signatory Designation"></label>
+            <label>Date<input name="Declaration Date" type="date" required></label>
+          </div>
+          <label class="declaration-check"><input type="checkbox" name="Declaration Accepted" value="Yes" required> I agree to the declaration above.</label>
+        </fieldset>
+        <button class="button button-primary" type="submit">Submit application <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+    <section class="online-form-panel" id="corporate-form" hidden>
+      <h2>Corporate / Premium Membership Application</h2>
+      <p class="document-ref">Form No.: IGGEMA/MEM/CORP/2026</p>
+      <form action="https://formsubmit.co/ajax/Iggema.org.in@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="IGGEMA Corporate / Premium Membership Application">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+        <fieldset>
+          <legend>Company profile</legend>
+          <div class="form-grid">
+            <label>Legal name of company<input name="Legal Name of Company" autocomplete="organization" required></label>
+            <label>Trade / brand name<input name="Trade / Brand Name"></label>
+            <label>Annual turnover (Rs. Cr)<input name="Annual Turnover (Rs. Cr)" type="number" min="0" step="0.01"></label>
+            <label>Number of employees<input name="Number of Employees" type="number" min="0"></label>
+            <label>Biogas / biomass plants commissioned<input name="Number of Plants Commissioned" type="number" min="0"></label>
+            <label>Total installed capacity (TPD / MW)<input name="Total Installed Capacity"></label>
+            <label>CIN / registration number<input name="CIN / Registration No."></label>
+            <label>GST number<input name="GST Number"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Key executives &amp; contact</legend>
+          <div class="form-grid">
+            <label>CEO / MD name<input name="CEO / MD Name"></label>
+            <label>CEO / MD email<input name="email" type="email" autocomplete="email" required></label>
+            <input type="hidden" name="_autoresponse" value="Thank you for submitting your IGGEMA Corporate / Premium Membership Application. IGGEMA has received your form for review.">
+            <label>CEO / MD mobile<input name="CEO / MD Mobile" type="tel"></label>
+            <label>Technical head name<input name="Technical Head Name"></label>
+            <label>Business development contact<input name="Business Dev Contact"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Membership tier &amp; benefits requested</legend>
+          <div class="form-check-grid">
+            <label><input type="checkbox" name="Membership Category" value="Premium Member — Rs. 75,000/year"> Premium Member — Rs. 75,000/year</label>
+            <label><input type="checkbox" name="Membership Category" value="Platinum Member — Rs. 1,50,000/year"> Platinum Member — Rs. 1,50,000/year</label>
+            <label><input type="checkbox" name="Membership Category" value="Life Corporate Member — Rs. 5,00,000 one-time"> Life Corporate Member — Rs. 5,00,000 one-time</label>
+          </div>
+          <p class="form-help">Select the membership category requested.</p>
+          <div class="form-check-grid">
+            <label><input type="checkbox" name="Engagement Requirements" value="Keynote Speaking Slot at Expo"> Keynote speaking slot at Expo</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="Panel Participation"> Panel participation</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="Exhibition Stall"> Exhibition stall</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="Award Category Co-Branding"> Award category co-branding</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="Advisory Board Seat"> Advisory board seat</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="White Paper / Report Co-authorship"> White paper / report co-authorship</label>
+            <label><input type="checkbox" name="Engagement Requirements" value="Other"> Other</label>
+          </div>
+          <label>Other / specify<input name="Other Engagement Requirements"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Payment &amp; invoice details</legend>
+          <p class="form-help">Payment QR and account instructions are not available yet. Complete payment details only after receiving verified instructions from IGGEMA.</p>
+          <div class="form-grid">
+            <label>Invoicing name<input name="Invoicing Name"></label>
+            <label>Billing address<textarea name="Billing Address" rows="3"></textarea></label>
+            <label>GST of billing entity<input name="GST of Billing Entity"></label>
+            <label>Transaction reference number<input name="Transaction Reference No."></label>
+            <label>Date of payment<input name="Date of Payment" type="date"></label>
+            <label>Amount paid (INR)<input name="Amount Paid (INR)" type="number" min="0" step="0.01"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Declaration &amp; signature</legend>
+          <p class="form-help">We confirm that the information provided is accurate, commit to participating in IGGEMA's initiatives, and uphold the values of transparency, sustainability, and industry development.</p>
+          <div class="form-grid">
+            <label>Authorised signatory name<input name="Signatory Name" required></label>
+            <label>Designation<input name="Signatory Designation"></label>
+            <label>Date<input name="Declaration Date" type="date" required></label>
+          </div>
+          <label class="declaration-check"><input type="checkbox" name="Declaration Accepted" value="Yes" required> I agree to the declaration above.</label>
+        </fieldset>
+        <button class="button button-primary" type="submit">Submit application <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+    <section class="online-form-panel" id="renewal-form" hidden>
+      <h2> Associate Membership Application</h2>
+      <p class="document-ref">Form No.: IGGEMA/MEM/RNW/2026</p>
+      <form action="https://formsubmit.co/ajax/Iggema.org.in@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="IGGEMA Annual Membership Renewal">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+        <fieldset>
+          <legend>Existing member details</legend>
+          <div class="form-grid">
+            <label>IGGEMA membership number<input name="IGGEMA Membership No." required></label>
+            <label>Company / organisation name<input name="Company / Organisation Name" autocomplete="organization" required></label>
+            <label>Current membership category<input name="Current Membership Category"></label>
+            <label>Membership valid until<input name="Membership Valid Until" type="date"></label>
+            <label>Authorised contact name<input name="Authorised Contact Name" autocomplete="name" required></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required></label>
+            <input type="hidden" name="_autoresponse" value="Thank you for submitting your IGGEMA Annual Membership Renewal Form. IGGEMA has received your form for review.">
+            <label>Mobile<input name="Mobile" type="tel" autocomplete="tel"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Renewal details</legend>
+          <div class="form-grid">
+            <label>Renewal option<select name="Renewal Option" required><option value="">Select option</option><option>Renewing same category</option><option>Upgrading to higher category</option></select></label>
+            <label>New category (if upgrading)<input name="New Category"></label>
+            <label>Renewal period<select name="Renewal Period"><option value="">Select period</option><option>1 Year</option><option>Lifetime</option></select></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Updates (if any)</legend>
+          <div class="form-grid">
+            <label>Updated address<textarea name="Updated Address" rows="3"></textarea></label>
+            <label>Updated email<input name="Updated Email" type="email"></label>
+            <label>Updated contact number<input name="Updated Contact No." type="tel"></label>
+            <label>Change in company name / status<textarea name="Change in Company Name / Status" rows="3"></textarea></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Payment details</legend>
+          <p class="form-help">Payment QR and account instructions are not available yet. Complete payment details only after receiving verified instructions from IGGEMA.</p>
+          <div class="form-grid">
+            <label>Transaction / UTR reference number<input name="Transaction / UTR Reference No."></label>
+            <label>Date of payment<input name="Date of Payment" type="date"></label>
+            <label>Amount paid (Rs.)<input name="Amount Paid (Rs.)" type="number" min="0" step="0.01"></label>
+            <label>Mode of payment<input name="Mode of Payment"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Declaration &amp; signature</legend>
+          <p class="form-help">I confirm that the above information is accurate and wish to renew my organisation's membership with IGGEMA for the upcoming term.</p>
+          <div class="form-grid">
+            <label>Authorised signatory name<input name="Signatory Name" required></label>
+            <label>Designation<input name="Signatory Designation"></label>
+            <label>Date<input name="Declaration Date" type="date" required></label>
+          </div>
+          <label class="declaration-check"><input type="checkbox" name="Declaration Accepted" value="Yes" required> I agree to the declaration above.</label>
+        </fieldset>
+        <button class="button button-primary" type="submit">Submit renewal <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+    <p class="form-picker-error" id="form-picker-error" hidden>That form type was not found. Please return to the membership form choices and select a form.</p>
+    <a class="button form-back-button" href="membership-forms.html"><span aria-hidden="true">←</span> Back to forms</a>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <span>© 2026 IGGEMA. All rights reserved.</span>
+      <a href="index.html">Return to IGGEMA home ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const formType = new URLSearchParams(window.location.search).get("form");
+    const formPanel = document.getElementById(`${formType}-form`);
+    const formNames = {
+      annual: "Annual Membership Application",
+      startup: "Startup & Associate Membership",
+      corporate: "Corporate / Premium Membership",
+      renewal: "Annual Membership Renewal"
+    };
+
+    if (formPanel && formNames[formType]) {
+      formPanel.hidden = false;
+      document.getElementById("form-page-title").textContent = formNames[formType];
+      document.title = `${formNames[formType]} — IGGEMA`;
+    } else {
+      document.getElementById("form-picker-error").hidden = false;
+    }
+
+    const corporateCategories = document.querySelectorAll('#corporate-form input[name="Membership Category"]');
+    const validateCorporateCategory = () => {
+      const missingCategory = !Array.from(corporateCategories).some((checkbox) => checkbox.checked);
+      corporateCategories[0].setCustomValidity(missingCategory ? "Select a membership category." : "");
+    };
+
+    corporateCategories.forEach((checkbox) => {
+      checkbox.addEventListener("change", validateCorporateCategory);
+    });
+
+    document.querySelector("#corporate-form form").addEventListener("submit", (event) => {
+      validateCorporateCategory();
+      if (!event.currentTarget.checkValidity()) {
+        event.preventDefault();
+        event.currentTarget.reportValidity();
+      }
+    });
+
+    document.querySelectorAll(".online-form-panel form").forEach((form) => {
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+
+        const submitButton = form.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: "POST",
+            body: new FormData(form),
+            headers: { Accept: "application/json" }
+          });
+          const result = await response.json();
+
+          if (!response.ok || (result.success !== true && result.success !== "true")) {
+            throw new Error(result.message || "The form service could not accept your submission.");
+          }
+
+          window.alert("Successfully submitted! Thank you. Your application has been sent to IGGEMA.");
+          form.reset();
+        } catch (error) {
+          console.error("Membership form submission failed:", error);
+          window.alert("We could not confirm your submission. Please try again later. If this problem continues, contact Iggema.org.in@gmail.com before submitting again.");
+        } finally {
+          submitButton.disabled = false;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
