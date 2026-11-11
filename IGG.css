@@ -69,40 +69,15 @@ a { color: inherit; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   flex: 0 0 auto;
   color: var(--green-dark);
   text-decoration: none;
 }
 
-.brand-mark {
-  display: grid;
-  width: 39px;
-  height: 39px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--green);
-  color: var(--lime);
-  font-family: var(--serif);
-  font-size: 30px;
-  font-style: italic;
-  line-height: 1;
-}
-
-.brand-name {
-  display: grid;
-  gap: 2px;
-  font-family: var(--display);
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: .13em;
-}
-
-.brand-caption {
-  font-family: var(--sans);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: .1em;
+.brand-logo {
+  display: block;
+  width: 250px;
+  height: auto;
 }
 
 .nav-links {
@@ -659,10 +634,7 @@ h2 {
 @media (max-width: 980px) {
   .container { width: min(100% - 48px, 760px); }
   .navbar { min-height: 74px; gap: 14px; }
-  .brand { gap: 7px; }
-  .brand-mark { width: 34px; height: 34px; font-size: 26px; }
-  .brand-name { font-size: 14px; }
-  .brand-caption { font-size: 7px; }
+  .brand-logo { width: 220px; }
   .nav-links { gap: 13px; }
   .nav-links a { font-size: 11px; }
   .nav-cta { padding: 10px 11px; gap: 8px; font-size: 10px; }
@@ -730,7 +702,7 @@ h2 {
 
 @media (max-width: 430px) {
   .container { width: calc(100% - 32px); }
-  .brand-caption { letter-spacing: .07em; }
+  .brand-logo { width: 170px; }
   .nav-cta { font-size: 9px; }
   .hero { padding-top: 53px; }
   .eyebrow { font-size: 8px; letter-spacing: .12em; }
